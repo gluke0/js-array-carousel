@@ -1,0 +1,26 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.fa-solid{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.caro{
+    width: 800px;
+    display: flex;
+}
+
+.images{
+    width: 400px;
+}
+
+.img-container img{
+    width: 100%;
+}
