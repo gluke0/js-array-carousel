@@ -1,26 +1,58 @@
 body{
-    width: 100%;
+    background-color: lightgray;
+}
+
+.container{
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: azure;
+    justify-content: center;
 }
 
-.fa-solid{
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.caro{
-    width: 800px;
-    display: flex;
-}
-
-.images{
-    width: 400px;
-}
-
-.img-container img{
+img{
+    display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+.item{
+    background-color: lightgray;
+    display: none;
+    height: 20rem;
+    width: 45rem;
+}
+
+.thumbs .thumb{
+    height: 4rem;
+    width: 10rem;
+}
+
+.active{
+    display: block;
+}
+
+.thumbs{
+    position: relative;
+}
+
+.arrow{
+    background-color: lightgray;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.1rem 0.25rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.up{
+    top: 0.5rem;
+}
+
+.down{
+    bottom: 0.5rem;
+}
+
