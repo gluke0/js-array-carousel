@@ -19,7 +19,7 @@ img{
 .item{
     background-color: lightgray;
     display: none;
-    height: 20.1rem;
+    height: 20rem;
     width: 45rem;
 }
 
@@ -61,6 +61,5 @@ img{
 }
 
 .thumbs .selected{
-    border: 1px solid lightgray;
     filter: brightness(400%);
 }
