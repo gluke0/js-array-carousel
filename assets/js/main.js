@@ -45,3 +45,18 @@ function() {
     items[active].classList.add('active');
     thumbs[active].classList.add('selected');
 })
+
+arrowUp.addEventListener('click',
+function() {
+    items[active].classList.remove('active');
+    thumbs[active].classList.remove('selected');
+    
+    if (active == 0) {
+        active = images.length - 1;
+    } else {
+        active--;
+    }
+    
+    items[active].classList.add('active');
+    thumbs[active].classList.add('selected');
+})
